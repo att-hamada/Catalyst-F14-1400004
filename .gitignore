@@ -1,0 +1,15 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+~$*.docx
+~$*.xlsx
+
+# 作業中ドキュメント（public リポジトリには公開しない）
+*.docx
+プロジェクト概要*.md
+
+# DocumentM1 は README が参照する英語 PDF 3 件のみ公開
+DocumentM1/*
+!DocumentM1/ActivatingBroadcast_M1_A1-1_EN.pdf
+!DocumentM1/ActivatingBroadcast_M1_A1-2_EN.pdf
+!DocumentM1/ActivatingBroadcast_M1_B1_EN.pdf
